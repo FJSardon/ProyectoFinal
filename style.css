@@ -11,10 +11,9 @@ body {
 
 }
 
-header {
-    background-color: rgb(159, 198, 250);
+header{
+    background-image: linear-gradient(to right, rgb(179, 203, 212),rgb(159, 198, 250));
 }
-
 h1 {
     text-decoration-line: underline;
     font-weight: bold;
@@ -27,21 +26,51 @@ h1 {
 h2 {
     margin-top: 15px;
 }
-
+.botonforo{
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    font-size: x-large;
+}
 .nav {
     margin-left: 30px;
 }
 
+.animacion-noticia:hover{
+    transform: scale(2);
+}
+.animacion1{
+    display: flex;
+    width: 15%;
+    height: 15%;
+    margin-left: 8%;
+    text-align: left;
+    transition: all 3s;
+}
+
+.inicio-animacion:hover{
+    transform: scale(2);
+}
+.inicio{
+    display: flex;
+    width: 15%;
+    height: 15%;
+    margin-left: 8%;
+    text-align: left;
+    transition: all 2s;
+}
+
 .noticias {
     font-size: x-large;
-    color: red;
-
+    color: red;  
 }
 
 .bienvenida {
-
     text-align: center;
-    color: rgb(241, 203, 203);
+    color: black;
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
@@ -49,13 +78,14 @@ h2 {
     border: solid 3px rgb(207, 166, 113);
     font-style: italic;
     font-size: large;
+    background-color: rgb(217, 233, 248);
 
 }
 
 .quienes {
 
     text-align: center;
-    color: rgb(238, 216, 216);
+    color: black;
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
@@ -63,23 +93,36 @@ h2 {
     border: solid 3px rgb(207, 166, 113);
     font-style: italic;
     font-size: large;
+    background-color: rgb(217, 233, 248);
 
 }
 
 .textoHistoria {
-    color: white;
+    color: black;
     font-style: italic;
-    text-align: justify;
+    text-align: center;
     margin-top: 15px;
     margin-bottom: 25px;
+    opacity: 1;
+    background-color: aliceblue;   
+
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 .textoMalvinas {
-    color: white;
+    display: flex;
+    text-align: center;
+    margin: 3%;
+    color: rgb(0, 0, 0);
     font-style: italic;
     text-align: justify;
     margin-top: 15px;
     margin-bottom: 25px;
+    background-color: aliceblue;
 }
 
 
@@ -99,24 +142,26 @@ a {
 }
 
 .navsoc {
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
     margin-top: 30px;
     margin-right: 3%;
 }
 
 .logo-insta {
-    width: 2%;
+    width: 7%;
 }
 
 .logo-face {
-    width: 3%;
+    width: 9%;
 }
 
 footer {
-    background-color: rgb(159, 198, 250);
-    position: absolute;
-    bottom: 0;
+    display: flex;
+    justify-content: end;
+    background-image: linear-gradient(to right, rgb(179, 203, 212),rgb(159, 198, 250));
+margin-top: 20%;
+
 }
 
 .fotosMalvinas {
@@ -131,14 +176,15 @@ footer {
 }
 
 .multi {
-    display: flex;
-    justify-content: space-between;
-    font-size: xx-large;
+    display: grid;
+    grid-template-columns: 33.3% 33.3%;
+    grid-template-rows: 33.3% 33.3%;
+   justify-content: center;
+    margin-top: 7%;
+    margin-bottom: 7%;
+     font-size: xx-large;
     font-weight: bold;
-    color: rgb(232, 236, 218);
-    margin-top: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
+    gap: 30px;
 
 }
 
@@ -159,12 +205,42 @@ align-content: center;
     background-color: white;
     width: 80%;
     margin-left: 10%;
+    font-size: larger;
 }
-.botonforo{
-align-content: center;    
-}
+
 .sectorforo {
     color: white;
     font-size: large;
     margin-left: 2%;
 }
+.texto-foro{
+    font-size: x-large;
+}
+
+.prueba60{ 
+    text-align: center;
+    color: white;
+    font-weight: solid;
+}
+
+
+.carousel-dimension{
+    display: flex;
+align-items: center;
+margin: 5%;
+width: 45%;
+}
+
+/*
+.carrouselContainer{
+    display: flex;
+    align-items: center;
+}
+.carrousel1{
+    width: 30%;
+}
+
+.carrousel2{
+    width: 30%;
+}
+*/

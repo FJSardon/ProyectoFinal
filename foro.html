@@ -1,54 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foro</title>
+    <!-- BOOSTRAP-->
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="imagenes/icono-pestaña.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1>Learjet</h1>
-        <h3> <a href="index.html">Inicio</a> </h3>  
+        <div class="inicio-animacion inicio">
+            <h2> <a href="index.html">Inicio</a> </h2>
+        </div>
     </header>
     <main>
 
-<section class="sectorforo">
+        <section class="sectorforo">
 
-    <div>
-        <h2>Foro</h2>
-        <p>En este sector se invita a los visitantes a compartir y debatir experiencias propias o ajenas vividas en las aeronaves Learjet.</p>         
-    </div>
-    <div>
-        <button class="botonforo">Inicia un Foro</button>
-    </div>
+            <div>
+                <h2>Foro</h2>
+                <p class="texto-foro">En este sector se invita a los visitantes a compartir y debatir experiencias
+                    propias o ajenas vividas
+                    en las aeronaves Learjet.</p>
+            </div>
+            <div class="botonforo">
+                <button type="button" class="btn btn-secondary">Inicia un Foro</button>
+            </div>
+        </section>
 
-</section>
-        
-<section class="cuadroforo">
+        <section class="cuadroforo">
 
-<p>Pregunta: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-<br>
-<p>Respuesta: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, doloribus culpa! Veritatis culpa dolores ducimus nihil quidem at eligendi id facere, neque nisi repellendus impedit beatae unde accusamus, fugiat dignissimos.</p>
-<br>
-<p>Pregunta: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-<br>
-<p>Respuesta: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, doloribus culpa! Veritatis culpa dolores ducimus nihil quidem at eligendi id facere, neque nisi repellendus impedit beatae unde accusamus, fugiat dignissimos.</p>
-<br> <br>
-<p>Pregunta: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-<br>
-<p>Respuesta: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, doloribus culpa! Veritatis culpa dolores ducimus nihil quidem at eligendi id facere, neque nisi repellendus impedit beatae unde accusamus, fugiat dignissimos.</p>
-<br> <br>
-<p>Pregunta: Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-<br>
-<p>Respuesta: Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, doloribus culpa! Veritatis culpa dolores ducimus nihil quidem at eligendi id facere, neque nisi repellendus impedit beatae unde accusamus, fugiat dignissimos.</p>
+            <p>Pregunta: ¿Cuanto cuesta un LJ-35 hoy en día?</p>
+            <br>
+            <p>Respuesta: Te dejo acá una tabla de precios -->
+                <a href="https://www.aircraftcostcalculator.com/AircraftOperatingCosts/74/Learjet+35A?gclid=Cj0KCQjw1bqZBhDXARIsANTjCPL43v_Ek0Qnm9iaNzFyaeu0166WvR2TCs-Tb7dd3velQAN5BaX-wrMaAj-qEALw_wcB"
+                    target="_blank">Link</a>
 
-</section>
+            </p>
+            <br>
+            <p>Pregunta: ¿Que pasa si se rompe un motor?.</p>
+            <br>
+            <p>Respuesta: Dependiendo el tipo de aeronave, en la mayoría de los bimotores (avioines que tienen dos
+                motores), estos pueden seguir volando con uno solo funcionando de forma correcta. <br>
+                Dependiendo en la situación en que falle el motor se toman distintaas acciones a seguir. <br>
+                Como experiencia personal voy a compartir que tuve una falla de motor en el despegue, y como la falla
+                sucedió recién arrancado el despegue seguimos los procedimientos para abortar y quedarnos en la pista.
+                <br>
+                Espero te sirva!
+            </p>
+            <br> <br>
+            <p>Pregunta: ¿Que combustible utilizan los aviones?</p>
+            <br>
+            <p>Respuesta: En el caso de los Learjet utilizan JP con sus variantes.</p>
+            <br> <br>
+            <p>Pregunta: ¿Estos aviones pueden volar entre las nubes?</p>
+            <br>
+            <p>Respuesta: Sí, la mayoría de los Learjet vienen equipados con sistemas que previenen la formación de
+                hielo para poder volar a gran altura y dentro de las nubes. <br>
+                Hay que aclarar que ciertas nubes son más peligrosas que otras, como por ejemplo las de tormentas
+                eléctricas, más conocidas como CB (Charly Bravo) o Cumulus Nimbus</p>
+
+        </section>
 
     </main>
 
@@ -59,19 +84,31 @@
 
 
 
-        <!--REDES AL FONDO EN EL FOOTER-->
-        <footer>
-            <nav class="navsoc">
-                <span id="Contacto">Contacto</span>
-    
-                <a href="https://www.instagram.com/combat_learjet/" target="_blank"> <img class="logo-insta"
-                        src="imagenes/icono-igm.webp" alt="instagram"></a>
-    
-                <a href="https://web.facebook.com/groups/198465753551569" target="_blank"><img class="logo-face"
-                        src="imagenes/icono-face.png" alt="logo-face"></a>
-                <p>Whatsupp:+54-0111589567986</p>
-            </nav>
-    
-        </footer>
+    <!--REDES AL FONDO EN EL FOOTER-->
+    <footer>
+        <nav class="navsoc">
+            <span id="Contacto">Contacto</span>
+
+            <a href="https://www.instagram.com/combat_learjet/" target="_blank"> <img class="logo-insta"
+                    src="imagenes/icono-igm.webp" alt="instagram"></a>
+
+            <a href="https://web.facebook.com/groups/198465753551569" target="_blank"><img class="logo-face"
+                    src="imagenes/icono-face.png" alt="logo-face"></a>
+            <p>Whatsupp:+54-0111589567986</p>
+        </nav>
+
+    </footer>
+
+
+
+     <!--SCRIPTS BOOSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+  integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+  crossorigin="anonymous"></script>
+
 </body>
+
 </html>
