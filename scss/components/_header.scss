@@ -1,0 +1,38 @@
+header{
+    background-image: linear-gradient(to right, rgb(179, 203, 212),rgb(159, 198, 250));
+    h1 {
+        text-decoration-line: underline;
+        font-weight: bold;
+        text-align: right;
+        margin-right: 3%;
+        font-size: 60px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .animacion-noticia:hover{
+        transform: scale(2);
+    }
+    .animacion1{
+        display: flex;
+        width: 15%;
+        height: 15%;
+        margin-left: 8%;
+        text-align: left;
+        transition: all 3s;
+    }
+    
+    .inicio-animacion:hover{
+        transform: scale(2);
+    }
+    .inicio{
+        display: flex;
+        width: 15%;
+        height: 15%;
+        margin-left: 8%;
+        text-align: left;
+        transition: all 2s;
+    }
+    .noticias {
+        font-size: x-large;
+        color: red;  
+    }
+}

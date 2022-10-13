@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: end;
+    background-image: linear-gradient(to right, rgb(179, 203, 212), rgb(159, 198, 250));
+    margin-top: 20%;
+
+    .logo-insta {
+        width: 7%;
+    }
+
+    .logo-face {
+        width: 9%;
+    }
+    .navsoc {
+        font-size: 30px;
+        text-align: right;
+        margin-top: 30px;
+        margin-right: 3%;
+    }
+}
